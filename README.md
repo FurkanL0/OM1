@@ -45,6 +45,12 @@ sudo apt-get update
 sudo apt-get install portaudio19-dev python-dev ffmpeg
 ```
 
+For Ubuntu
+```bash
+sudo apt update
+sudo apt install portaudio19-dev python3-dev ffmpeg
+```
+
 ### Obtain an OpenMind API Key
 
 Obtain your API Key at [OpenMind Portal](https://portal.openmind.org/). Copy it to `config/spot.json5`, replacing the `openmind_free` placeholder. Or, `cp env.example .env` and add your key to the `.env`. 
